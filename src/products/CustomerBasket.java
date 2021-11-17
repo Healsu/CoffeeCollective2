@@ -11,6 +11,7 @@ public class CustomerBasket {
     public static ArrayList<String> basket = new ArrayList<>();
     private int totalPrice = 0;
 
+    //Vi laver en default instans af hvert objekt så vi kan tilføje prisen af de indivduelle objekter via metodekaldet getPrice til vores basket
     Americano americano = new Americano();
     Espresso espresso = new Espresso();
     Tea tea = new Tea();
