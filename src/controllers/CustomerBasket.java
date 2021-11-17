@@ -1,4 +1,6 @@
-package products;
+package controllers;
+
+import products.*;
 
 import java.util.ArrayList;
 

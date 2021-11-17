@@ -1,0 +1,12 @@
+Vi har lavet en klasse Drinkfactory til at håndtere kreationerne af de individuelle objekter for hvert produkt
+Vi har fjernet menu ansvaret fra main klassen og overført til OrderTakingMenu.
+Vi har tilføjet statistics for både drikkevare og mad.
+
+Vi har lavet koblingen mellem klasserne så det udelukkende er controllers der snakker med klasserne, hvor main klassen derfra kan køre programmet
+ved brug af controllerne, som har ansvaret at kontrollere brugen af de forskellige klasser.
+--- lav kobling i brug
+
+Før blev det hele kørt fra main og det var main der håndterede brugen af de forskellige klasser.
+Dette kunne man se da der blev lavet adskillige objekter i mainklassen førhen.
+Da main havde så stort et ansvarsområde var samhøriheden(cohesion) meget lav og brugen af controllers var minimal.
+Vi har øget samhørigheden ved at uddele ansvar til controller klasserne og dermed også formindsket koblingsniveauet.
